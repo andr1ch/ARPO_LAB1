@@ -54,5 +54,5 @@ jobs:
           BACKUP_TOKEN: ${{ secrets.BACKUP_TOKEN }}
         run: |
           echo "=== Начало процесса зеркалирования ==="
-          git push --force https://x-access-token:${BACKUP_TOKEN}@github.com/andr1ch/2d_platformer_backup.git master
+          git push --force https://x-access-token:${BACKUP_TOKEN}@github.com/andr1ch/2d_platformer_backup.git HEAD:main
           echo "== Код успешно продублирован =="
