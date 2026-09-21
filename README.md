@@ -36,3 +36,22 @@
 Шаг 9: Документирование, cоздание Pull Request и Peer Review
 (Аппрувы)
 
+Лабораторная 2
+
+Шаг 1: Создание резервного репозитория для зеркалирования
+![](Screenshots/image12.png)
+
+Шаг 2: Генерация токена доступа (PAT Token)
+![](Screenshots/image11.png)
+
+Шаг 3: Сохранение токена в секреты основного проекта
+![](Screenshots/image16.png)
+
+Шаг 4: Написание единого YAML пайплайна
+![](Screenshots/image13.png)
+
+Шаг 5: Отправка пайплайна на GitHub
+![](Screenshots/image14.png)
+
+Шаг 6: Проверка результатов и отчет
+![](Screenshots/image15.png)
